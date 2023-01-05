@@ -147,6 +147,89 @@
     </div>
   </section><!-- End About Section -->
 
+<!-- ======= Pricing Section ======= -->
+<section id="pricing" class="pricing">
+
+<div class="container" data-aos="fade-up">
+
+  <!-- <header class="section-header">
+    <h2>Pricing</h2>
+    <p>Check our Pricing</p>
+  </header> -->
+
+  <div class="row gy-4" data-aos="fade-left">
+
+    <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+      <div class="box">
+        <h3 style="color: #07d5c0;">Free Plan</h3>
+        <div class="price"><sup>$</sup>0<span> / mo</span></div>
+        <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
+        <ul>
+          <li>Aida dere</li>
+          <li>Nec feugiat nisl</li>
+          <li>Nulla at volutpat dola</li>
+          <li class="na">Pharetra massa</li>
+          <li class="na">Massa ultricies mi</li>
+        </ul>
+        <a href="#" class="btn-buy">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+      <div class="box">
+        <span class="featured">Featured</span>
+        <h3 style="color: #65c600;">Starter Plan</h3>
+        <div class="price"><sup>$</sup>19<span> / mo</span></div>
+        <img src="assets/img/pricing-starter.png" class="img-fluid" alt="">
+        <ul>
+          <li>Aida dere</li>
+          <li>Nec feugiat nisl</li>
+          <li>Nulla at volutpat dola</li>
+          <li>Pharetra massa</li>
+          <li class="na">Massa ultricies mi</li>
+        </ul>
+        <a href="#" class="btn-buy">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+      <div class="box">
+        <h3 style="color: #ff901c;">Business Plan</h3>
+        <div class="price"><sup>$</sup>29<span> / mo</span></div>
+        <img src="assets/img/pricing-business.png" class="img-fluid" alt="">
+        <ul>
+          <li>Aida dere</li>
+          <li>Nec feugiat nisl</li>
+          <li>Nulla at volutpat dola</li>
+          <li>Pharetra massa</li>
+          <li>Massa ultricies mi</li>
+        </ul>
+        <a href="#" class="btn-buy">Buy Now</a>
+      </div>
+    </div>
+
+    <!-- <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+      <div class="box">
+        <h3 style="color: #ff0071;">Ultimate Plan</h3>
+        <div class="price"><sup>$</sup>49<span> / mo</span></div>
+        <img src="assets/img/pricing-ultimate.png" class="img-fluid" alt="">
+        <ul>
+          <li>Aida dere</li>
+          <li>Nec feugiat nisl</li>
+          <li>Nulla at volutpat dola</li>
+          <li>Pharetra massa</li>
+          <li>Massa ultricies mi</li>
+        </ul>
+        <a href="#" class="btn-buy">Buy Now</a>
+      </div>
+    </div> -->
+
+  </div>
+
+</div>
+
+</section><!-- End Pricing Section -->
+
   <!-- ======= Catalogue Section ======= -->
   <section id="team" class="team">
     <div class="container">
@@ -455,7 +538,8 @@
         </div>
 
         <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-          <form action="<?= base_url()?>feedback/simpan" method="post" role="form" class="php-email-form">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.976356099664!2d112.6189741141568!3d-8.001374982035772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd628003e38fe73%3A0x3aa76fdd366c7827!2sBadan%20Pusat%20Statistik%20(BPS)%20Kota%20Malang!5e0!3m2!1sid!2sid!4v1670313704268!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+        <!-- <form action="<?= base_url()?>feedback/simpan" method="post" role="form" class="php-email-form">
             <div class="section-title" data-aos="fade-up">
               <h2>Berikan Kritik dan Saran</h2>
             </div>
@@ -479,7 +563,7 @@
               <div class="sent-message">Your message has been sent. Thank you!</div>
             </div>
             <div class="text-center"><button type="submit">Send Message</button></div>
-          </form>
+          </form> -->
         </div>
 
       </div>
